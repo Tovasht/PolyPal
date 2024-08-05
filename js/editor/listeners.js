@@ -8,7 +8,7 @@ const setExtrudeMode = (mode) => {
   settings.extrudeMode = mode;
   dQ(".extrude[type='point']").classList.remove("selected");
   dQ(".extrude[type='line']").classList.remove("selected");
-  dQ(".extrude[type='"+mode+"']").classList.add("selected");
+ // dQ(".extrude[type='"+mode+"']").classList.add("selected");
 }
 
 const toggleExtrudeMode = () => {
